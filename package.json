@@ -3,18 +3,23 @@
   "version": "1.0.0",
   "description": "Website Portal HMI cabang Jayapura",
   "main": "public/index.php",
-
   "scripts": {
     "start": "php spark serve",
-    "migration" : "php spark migrate"
+    "migration": "php spark migrate"
   },
   "keywords": [
     "portal",
     "hmi",
     "cabang",
     "jayapura",
-    "portal hmi cabang jayapura"],
-
+    "portal hmi cabang jayapura"
+  ],
   "author": "Muhammad Riski ode, S.Kom",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
 }
