@@ -1,0 +1,20 @@
+{
+  "name": "portalhmi",
+  "version": "1.0.0",
+  "description": "Website Portal HMI cabang Jayapura",
+  "main": "public/index.php",
+
+  "scripts": {
+    "start": "php spark serve",
+    "migration" : "php spark migrate"
+  },
+  "keywords": [
+    "portal",
+    "hmi",
+    "cabang",
+    "jayapura",
+    "portal hmi cabang jayapura"],
+
+  "author": "Muhammad Riski ode, S.Kom",
+  "license": "ISC"
+}
